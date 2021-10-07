@@ -1,7 +1,10 @@
 {
-  "name": "lizard-sensors",
+  "name": "terrarium-stats",
   "version": "0.1.0",
-  "description": "Temp, humidity UI for lizard tank",
+  "description": "Prometheus scrapers for lizard tank temperature and humidity",
+  "bin": {
+    "terrarium-stats": "bin/terrarium-stats.js"
+  },
   "private": true,
   "author": "Mike Green <mike.is.green@gmail.com>",
   "dependencies": {
