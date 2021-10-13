@@ -5,6 +5,9 @@
   "bin": {
     "terrarium-stats": "bin/terrarium-stats.js"
   },
+  "scripts": {
+    "start": "bin/terrarium-stats.js"
+  },
   "private": true,
   "author": "Mike Green <mike.is.green@gmail.com>",
   "dependencies": {

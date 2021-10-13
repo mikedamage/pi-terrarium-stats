@@ -1,0 +1,13 @@
+[Unit]
+Description=Terrarium stats Prometheus exporter
+After=network.target
+
+[Service]
+Environment=PORT=8000
+Type=simple
+User=pi
+ExecStart=/usr/bin/node /PATH/TO/terrarium-stats/bin/terrarium-stats.js
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
