@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const { Registry } = require('prom-client')
 const express = require('express')
 const app = express()
